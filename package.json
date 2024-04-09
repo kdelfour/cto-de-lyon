@@ -1,4 +1,5 @@
 {
+  "name": "cto-de-lyon-website",
   "private": true,
   "type": "module",
   "scripts": {
@@ -6,12 +7,32 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "nuxt typecheck"
+  },
+  "lint-staged": {
+    "*.{ts,vue}": [
+      "eslint --fix"
+    ]
   },
   "devDependencies": {
-    "@nuxt/devtools": "^1.0.3",
-    "nuxt": "^3.8.2",
-    "vue": "^3.3.8",
-    "vue-router": "^4.2.5"
+    "@nuxt/content": "^2.12.1",
+    "@nuxt/devtools": "^1.1.5",
+    "@nuxt/image": "^1.5.0",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "eslint": "^8.57.0",
+    "eventbrite": "^1.3.0",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.0.3",
+    "nuxt": "^3.11.1",
+    "vue-tsc": "^2.0.6"
+  },
+  "dependencies": {
+    "@iconify/json": "^2.2.197",
+    "@nuxt/ui": "^2.15.1",
+    "@nuxt/ui-pro": "^1.1.0",
+    "@vercel/speed-insights": "^1.0.10"
   }
 }
