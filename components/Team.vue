@@ -49,6 +49,7 @@ const team = [
         :description="animator.job"
         :to="animator.profile"
         :icon="animator.icon"
+        :ui="{title:'text-2xl text-center'}"
         target="_blank"
       />
     </UPageGrid>

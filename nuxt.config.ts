@@ -13,6 +13,5 @@ export default defineNuxtConfig({
     icons: ['simple-icons', 'heroicons']
   },
   image: {
-    dir: 'assets/images'
   }
 })

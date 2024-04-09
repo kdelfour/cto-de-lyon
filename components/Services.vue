@@ -30,11 +30,10 @@ const features = [
     align="right"
     :features="features"
   >
-    <NuxtImg
-      src="illustration-offer.png"
-      provider="static"
+    <img
+      src="~assets/images/illustration-offer.png"
       class="w-full rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700"
       sizes="75vw sm:50vw"
-    />
+    >
   </ULandingSection>
 </template>

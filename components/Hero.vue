@@ -16,7 +16,7 @@
           </p>
         </template>
         <template #default>
-          <NuxtImg src="logo.png" alt="Logo" provider="static" />
+          <img src="~/assets/images/logo.png" alt="Logo">
         </template>
       </ULandingHero>
     </div>

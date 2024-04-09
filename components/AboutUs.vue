@@ -28,10 +28,9 @@
         cœur de la région.
       </p>
     </template>
-    <NuxtImg
-      src="illustration-about.png"
-      provider="static"
+    <img
+      src="~assets/images/illustration-about.png"
       class="w-full rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700"
-    />
+    >
   </ULandingSection>
 </template>
