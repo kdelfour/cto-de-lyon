@@ -1,8 +1,5 @@
 <template>
-  <ULandingSection
-    headline="Vous avez des questions ?"
-    title="Contactez-Nous"
-  >
+  <ULandingSection headline="Vous avez des questions ?" title="Contactez-Nous">
     <template #description>
       <p>
         Pour toute question ou suggestion, n'hésitez pas à contacter notre équipe d'animation.

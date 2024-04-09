@@ -10,11 +10,13 @@
             CTO de Lyon 🚀
           </h1>
           <p class="text-white">
-            Rejoignez une communauté dynamique de leaders technologiques qui façonnent l'avenir à travers collaboration et innovation. Élargissez votre réseau, partagez vos idées, et avancez dans votre carrière au sein d'un écosystème vibrant et soutenant.
+            Rejoignez une communauté dynamique de leaders technologiques qui façonnent l'avenir à travers collaboration
+            et innovation. Élargissez votre réseau, partagez vos idées, et avancez dans votre carrière au sein d'un
+            écosystème vibrant et soutenant.
           </p>
         </template>
         <template #default>
-          <NuxtImg src="logo.png" alt="Logo" />
+          <NuxtImg src="logo.png" alt="Logo" provider="static" />
         </template>
       </ULandingHero>
     </div>

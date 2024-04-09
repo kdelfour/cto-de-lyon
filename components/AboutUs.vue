@@ -1,29 +1,37 @@
 <template>
-  <ULandingSection
-    id="aboutUs"
-    title="Qui Sommes-Nous ?"
-    align="left"
-  >
+  <ULandingSection id="aboutUs" title="Qui Sommes-Nous ?" align="left">
     <template #description>
       <p class="mb-2">
-        Le groupe <b class="text-primary text-2xl">CTO de Lyon</b> est une communauté vibrante, engagée à réunir les esprits les plus innovants de la technologie dans la région Auvergne Rhône-Alpes.
+        Le groupe <b class="text-primary text-2xl">CTO de Lyon</b> est une communauté vibrante, engagée à réunir les
+        esprits les plus innovants de la technologie dans la région Auvergne Rhône-Alpes.
       </p>
       <p>
-        Nous rassemblons des Chief Technology Officers, des leaders technologiques, et des visionnaires de tous niveaux d'expérience pour forger un réseau solide et dynamique.
+        Nous rassemblons des Chief Technology Officers, des leaders technologiques, et des visionnaires de tous niveaux
+        d'expérience pour forger un réseau solide et dynamique.
       </p>
       <p>
-        Notre objectif est de créer un écosystème enrichissant où les idées peuvent circuler librement et où le soutien mutuel prévaut.
+        Notre objectif est de créer un écosystème enrichissant où les idées peuvent circuler librement et où le soutien
+        mutuel prévaut.
       </p>
       <p>
-        En mettant l'accent sur le développement professionnel et personnel, nous facilitons des interactions significatives qui catalysent la croissance et l'innovation.
+        En mettant l'accent sur le développement professionnel et personnel, nous facilitons des interactions
+        significatives qui catalysent la croissance et l'innovation.
       </p>
       <p class="mb-2">
-        Nos membres proviennent de divers secteurs industriels, offrant ainsi une riche mosaïque de perspectives et d'expertises.
+        Nos membres proviennent de divers secteurs industriels, offrant ainsi une riche mosaïque de perspectives et
+        d'expertises.
       </p>
       <p class="mb-2">
-        En partageant des connaissances, en confrontant des défis et en célébrant des réussites, <b class="text-primary text-2xl">CTO de Lyon</b>  s'affirme comme le carrefour de l'innovation technologique au cœur de la région.
+        En partageant des connaissances, en confrontant des défis et en célébrant des réussites, <b
+          class="text-primary text-2xl"
+        >CTO de Lyon</b> s'affirme comme le carrefour de l'innovation technologique au
+        cœur de la région.
       </p>
     </template>
-    <NuxtImg src="illustration-about.png" class="w-full rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700" />
+    <NuxtImg
+      src="illustration-about.png"
+      provider="static"
+      class="w-full rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700"
+    />
   </ULandingSection>
 </template>
