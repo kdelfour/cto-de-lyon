@@ -6,14 +6,16 @@
         headline="Les prochains rendez-vous"
         title="Ne manquez pas nos rendez-vous à venir!"
         description="Participez à nos événements, nos ateliers interactifs, et nos soirées de networking. Chaque événement est une chance de renforcer votre réseau et d'approfondir vos connaissances. Inscrivez-vous dès maintenant pour garantir votre place!"
-        :ui="{container: 'text-white', headline: 'text-white'}"
+        :ui="{
+          container: 'text-white', headline: 'text-white', title: 'text-white', description: 'text-white',
+        }"
       >
         <UAlert
           icon="i-heroicons-calendar-days"
           color="red"
-          variant="subtle"
+          variant="solid"
           class="ml-auto mr-auto"
-          :ui="{wrapper:'w-3/6'}"
+          :ui="{ wrapper: 'w-3/6' }"
           title="Cher agenda, à quand le prochain rendez-vous?"
           description="Pour l'instant, nos calendriers prennent un petit bain de détente ! Pas d'événements planifiés à l'horizon, mais ne vous inquiétez pas, nous sommes en train de concocter des rencontres qui seront à la hauteur de vos attentes. Restez connectés, de nouvelles dates seront annoncées bientôt – parce que même nos agendas ont droit à un peu de suspense !"
         />

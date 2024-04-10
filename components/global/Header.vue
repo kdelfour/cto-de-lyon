@@ -25,7 +25,7 @@ const links = [{
     </template>
 
     <template #right>
-      <UButton icon="i-heroicons-envelope-open" label="S'inscrire à notre newsletter" to="https://c26d9167.sibforms.com/serve/MUIFAPgUD9FAfkc4JDaYrcZbkyKrW6GbFnompG_YTmE1vJKCdVp6NeNXylwurQqNu8_zTdsh1HrS4i4GMHZmS1LWb6cbR9lGtlWLiOomcgLxgka1yfmusQeyOgvDLozQFQ86ZXJb1Ay1Bciuki3I06rPQ8STJvLvA8dO5tppCHDl7OWiFpkRxhBxXUCcrbRqjk907gOpx3af23-C" />
+      <UButton icon="i-heroicons-envelope-open" label="S'inscrire" to="https://c26d9167.sibforms.com/serve/MUIFAPgUD9FAfkc4JDaYrcZbkyKrW6GbFnompG_YTmE1vJKCdVp6NeNXylwurQqNu8_zTdsh1HrS4i4GMHZmS1LWb6cbR9lGtlWLiOomcgLxgka1yfmusQeyOgvDLozQFQ86ZXJb1Ay1Bciuki3I06rPQ8STJvLvA8dO5tppCHDl7OWiFpkRxhBxXUCcrbRqjk907gOpx3af23-C" />
       <UColorModeButton />
     </template>
   </UHeader>
