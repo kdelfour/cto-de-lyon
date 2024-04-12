@@ -13,5 +13,9 @@ export default defineNuxtConfig({
     icons: ['simple-icons', 'heroicons']
   },
   image: {
+  },
+  runtimeConfig: {
+    EVENTBRITE_TOKEN: process.env.EVENTBRITE_TOKEN,
+    EVENTBRITE_ORG_ID: process.env.EVENTBRITE_ORG_ID
   }
 })

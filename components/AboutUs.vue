@@ -9,19 +9,11 @@
         Nous rassemblons des Chief Technology Officers, des leaders technologiques, et des visionnaires de tous niveaux
         d'expérience pour forger un réseau solide et dynamique.
       </p>
-      <p>
+      <p class="mt-2">
         Notre objectif est de créer un écosystème enrichissant où les idées peuvent circuler librement et où le soutien
         mutuel prévaut.
       </p>
-      <p>
-        En mettant l'accent sur le développement professionnel et personnel, nous facilitons des interactions
-        significatives qui catalysent la croissance et l'innovation.
-      </p>
-      <p class="mb-2">
-        Nos membres proviennent de divers secteurs industriels, offrant ainsi une riche mosaïque de perspectives et
-        d'expertises.
-      </p>
-      <p class="mb-2">
+      <p class="mt-2">
         En partageant des connaissances, en confrontant des défis et en célébrant des réussites, <b
           class="text-primary text-2xl"
         >CTO de Lyon</b> s'affirme comme le carrefour de l'innovation technologique au

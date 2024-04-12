@@ -23,17 +23,16 @@ const features = [
 ]
 </script>
 <template>
-  <ULandingSection
-    id="services"
-    title="Ce Que Nous Offrons"
-    description="En tant que membre de &quot;CTO de Lyon&quot;, vous bénéficiez non seulement d'un accès à un réseau de professionnels qualifiés, mais également d'une multitude d'opportunités pour vous développer personnellement et professionnellement. Nous offrons un cadre où le partage de connaissances et l'expérience collective propulsent chacun vers de nouveaux sommets de réussite. Chez &quot;CTO de Lyon&quot;, chaque rencontre et chaque interaction sont des chances de se renforcer et d'innover, tout en contribuant à une communauté soudée et avant-gardiste."
-    align="right"
-    :features="features"
-  >
+  <ULandingSection id="services" title="Ce Que Nous Offrons" align="right" :features="features">
     <img
       src="~assets/images/illustration-offer.png"
       class="w-full rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700"
       sizes="75vw sm:50vw"
     >
+    <template #description>
+      <span>En tant que membre de <b class="text-primary text-2xl">CTO de Lyon</b>, vous bénéficiez d'un cadre où le
+        partage de connaissances et l'expérience collective propulsent chacun vers de nouveaux sommets de réussite.
+      </span>
+    </template>
   </ULandingSection>
 </template>
