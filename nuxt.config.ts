@@ -4,7 +4,12 @@ export default defineNuxtConfig({
   routeRules: { '/': { prerender: true } },
   nitro: { preset: 'vercel-edge' },
   extends: ['@nuxt/ui-pro'],
-  modules: ['@nuxt/content', '@nuxt/ui', '@nuxt/image'],
+  modules: [
+    '@nuxt/content',
+    '@nuxt/ui',
+    '@nuxt/image',
+    '@nuxtjs/seo'
+  ],
   colorMode: {
     preference: 'dark'
   },
@@ -12,7 +17,12 @@ export default defineNuxtConfig({
     global: true,
     icons: ['simple-icons', 'heroicons']
   },
-  image: {
+  image: {},
+  site: {
+    url: 'https://cto-de-lyon.fr/',
+    name: 'CTO de Lyon',
+    description: 'Une communauté dynamique de leaders technologiques qui façonnent l\'avenir à travers collaboration et innovation',
+    defaultLocale: 'fr'
   },
   runtimeConfig: {
     EVENTBRITE_TOKEN: process.env.EVENTBRITE_TOKEN,

@@ -3,12 +3,13 @@ const { data } = await useFetch('/api/fetchEvents')
 </script>
 
 <template>
-  <div class="w-full h-full bg-cover bg-center agenda-bg">
-    <div class="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-70">
+  <div class="bg-cover bg-center agenda-bg">
+    <div class="bg-gray-900 bg-opacity-70">
       <ULandingSection
         id="news"
         headline="Les prochains rendez-vous"
         title="Ne manquez pas nos rendez-vous à venir!"
+        class="m-5"
         description="Participez à nos événements, nos ateliers interactifs, et nos soirées de networking. Chaque événement est une chance de renforcer votre réseau et d'approfondir vos connaissances. Inscrivez-vous dès maintenant pour garantir votre place!"
         :ui="{
           container: 'text-white', headline: 'text-white', title: 'text-white', description: 'text-white',
@@ -26,16 +27,13 @@ const { data } = await useFetch('/api/fetchEvents')
           />
         </template>
         <template v-else>
-          <ULandingGrid
-            :ui="{
-              wrapper: 'flex flex-col lg:grid gap-8 lg:grid-cols-2 relative'
-            }"
-          >
+          <ULandingGrid>
             <ULandingCard
               v-for="event in data.events"
               :key="event.id"
               target="_blank"
               :to="event.url"
+              class="col-span-6"
             >
               <template #title>
                 <NuxtImg sizes="100vw" :src="event.logo.url" />
