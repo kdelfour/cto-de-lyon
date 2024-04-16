@@ -23,7 +23,7 @@ const features = [
 ]
 </script>
 <template>
-  <ULandingSection id="services" title="Ce Que Nous Offrons" align="right" :features="features">
+  <ULandingSection id="services" title="Ce que nous offrons" align="right" :features="features">
     <img
       src="~assets/images/illustration-offer.png"
       class="w-full rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700"

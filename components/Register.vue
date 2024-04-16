@@ -26,7 +26,7 @@ const contents = [
   <ULandingSection
     id="joinUs"
     headline="Rejoignez-Nous !"
-    title="Devenez Membre"
+    title="Devenez membre"
     description="Que vous soyez un CTO expérimenté, en début de carrière, ou un professionnel tech aspirant à un rôle de leadership, &quot;CTO de Lyon&quot; est votre communauté. Suivez notre page pour rester informé de nos événements et activités."
     :links="cta"
     :features="contents"

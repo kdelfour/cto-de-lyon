@@ -6,7 +6,7 @@
         orientation="horizontal"
       >
         <template #description>
-          <h1 class="text-white font-black text-7xl">
+          <h1 class="text-white font-black text-7xl mb-5">
             CTO de Lyon 🚀
           </h1>
           <p class="text-white">

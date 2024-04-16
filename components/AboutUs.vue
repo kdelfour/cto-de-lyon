@@ -1,5 +1,5 @@
 <template>
-  <ULandingSection id="aboutUs" title="Qui Sommes-Nous ?" align="left">
+  <ULandingSection id="aboutUs" title="Qui sommes-nous ?" align="left">
     <template #description>
       <p class="mb-2">
         Le groupe <b class="text-primary text-2xl">CTO de Lyon</b> est une communauté vibrante, engagée à réunir les
