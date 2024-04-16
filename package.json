@@ -22,7 +22,6 @@
     "@nuxt/devtools": "^1.1.5",
     "@nuxt/image": "^1.5.0",
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
-    "@nuxtjs/seo": "^2.0.0-rc.10",
     "eslint": "^8.57.0",
     "husky": "^8.0.2",
     "lint-staged": "^13.0.3",
