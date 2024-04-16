@@ -1,12 +1,13 @@
+<script setup lang="ts">
+defineProps<{ content?: JSON }>()
+</script>
+
 <template>
-  <ULandingSection headline="Vous avez des questions ?" title="Contactez-nous">
+  <ULandingSection :headline="content.headline" :title="content.title">
     <template #description>
-      <p>
-        Pour toute question ou suggestion, n'hésitez pas à contacter notre équipe d'animation.
-      </p>
-      <p>
-        Ensemble, enrichissons-nous les uns des autres et façonnons l'avenir de la technologie dans notre région ! 💪
-      </p>
+      <div v-for="(description, index) of content.description" :key="index" class="mb-2">
+        <p class="mb-2" v-html="description.paragraph" />
+      </div>
     </template>
   </ULandingSection>
 </template>

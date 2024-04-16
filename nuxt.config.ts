@@ -1,6 +1,17 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: false,
+
+  devtools: { enabled: true },
+  routeRules: { '/': { prerender: true } },
+  nitro: { preset: 'vercel-edge' },
+  extends: ['@nuxt/ui-pro'],
+  modules: ['@nuxt/content', '@nuxt/ui', '@nuxt/image'],
+  colorMode: { preference: 'dark' },
+  ui: {
+    global: true,
+    icons: ['simple-icons', 'heroicons']
+  },
   app: {
     head: {
       title: 'CTO de Lyon',
@@ -24,19 +35,19 @@ export default defineNuxtConfig({
       link: [
         {
           rel: 'apple-touch-icon',
-          size: '180x180',
+          sizes: '180x180',
           href: '/apple-touch-icon.png'
         },
         {
           rel: 'icon',
           type: 'image/png',
-          size: '32x32',
+          sizes: '32x32',
           href: '/favicon-32x32.png'
         },
         {
           rel: 'icon',
           type: 'image/png',
-          size: '16x16',
+          sizes: '16x16',
           href: '/favicon-16x16.png'
         },
         { rel: 'manifest', href: '/site.webmanifest' },
@@ -45,24 +56,7 @@ export default defineNuxtConfig({
       charset: 'utf-8'
     }
   },
-  devtools: { enabled: true },
-  routeRules: { '/': { prerender: true } },
-  nitro: { preset: 'vercel-edge' },
-  extends: ['@nuxt/ui-pro'],
-  modules: ['@nuxt/content', '@nuxt/ui', '@nuxt/image'],
-  colorMode: { preference: 'dark' },
-  ui: {
-    global: true,
-    icons: ['simple-icons', 'heroicons']
-  },
   image: {},
-  // site: {
-  //   url: 'https://cto-de-lyon.fr/',
-  //   name: 'CTO de Lyon',
-  //   description:
-  //     "Une communauté dynamique de leaders technologiques qui façonnent l'avenir à travers collaboration et innovation",
-  //   defaultLocale: 'fr'
-  // },
   runtimeConfig: {
     EVENTBRITE_TOKEN: process.env.EVENTBRITE_TOKEN,
     EVENTBRITE_ORG_ID: process.env.EVENTBRITE_ORG_ID
