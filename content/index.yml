@@ -1,0 +1,102 @@
+sections:
+  hero:
+    title: "CTO de Lyon 🚀"
+    description: "Rejoignez une communauté dynamique de leaders technologiques qui façonnent l'avenir à travers collaboration et innovation. Élargissez votre réseau, partagez vos idées, et avancez dans votre carrière au sein d'un écosystème vibrant et soutenant."
+    links:
+      - label: "Rejoignez nous"
+        icon: "i-heroicons-hand-thumb-up"
+        size: "lg"
+        to: "#joinUs"
+  about:
+    title: "Qui sommes-nous ?"
+    description:
+      - paragraph: "Le groupe <b class='text-primary text-2xl'>CTO de Lyon</b> est une communauté vibrante, engagée à réunir les esprits les plus innovants de la technologie dans la région Auvergne Rhône-Alpes."
+      - paragraph: "Nous rassemblons des Chief Technology Officers, des leaders technologiques, et des visionnaires de tous niveaux d'expérience pour forger un réseau solide et dynamique."
+      - paragraph: "Notre objectif est de créer un écosystème enrichissant où les idées peuvent circuler librement et où le soutien mutuel prévaut."
+      - paragraph: "En partageant des connaissances, en confrontant des défis et en célébrant des réussites, <b class='text-primary text-2xl'>CTO de Lyon</b> s'affirme comme le carrefour de l'innovation technologique au cœur de la région."
+  team:
+    title: "L'équipe"
+    team:
+      - name: "Xavier Gorse "
+        job: "CEO @ Elao"
+        profile: "https://www.linkedin.com/in/xgorse/"
+        icon: "i-heroicons-user"
+      - name: "Xavier Barry"
+        job: "CTO CTPO @ pHack-Man"
+        profile: "https://www.linkedin.com/in/xavierbarry/"
+        icon: "i-heroicons-user"
+      - name: "Yann Verneau"
+        job: "Co-founder, CTO @ Co-CTO"
+        profile: "https://www.linkedin.com/in/yann-verneau/"
+        icon: "i-heroicons-user"
+      - name: "Hugo Dupré"
+        job: "Co-founder, CEO @ Co-CTO"
+        profile: "https://www.linkedin.com/in/hugodupre/"
+        icon: "i-heroicons-user"
+      - name: "Kevin Delfour"
+        job: "🚀 Associate Director @ MAX Digital Services Lyon"
+        profile: "https://www.linkedin.com/in/kevindelfour/"
+        icon: "i-heroicons-user"
+  services:
+    title: "Ce que nous offrons"
+    description:
+      - paragraph: "En tant que membre de <b class='text-primary text-2xl'>CTO de Lyon</b>, vous bénéficiez d'un cadre où le partage de connaissances et l'expérience collective propulsent chacun vers de nouveaux sommets de réussite."
+    features:
+      - name: "Événements et Rencontres"
+        description: "Participez à nos événements réguliers : soirées conviviales, ateliers pratiques et conférences enrichissantes pour partager des expériences et apprendre ensemble."
+        icon: "i-heroicons-user-group"
+      - name: "Partage de Connaissances"
+        description: "Nous encourageons le partage d'expériences, de stratégies et de défis technologiques, favorisant ainsi un apprentissage continu et une veille technologique active."
+        icon: "i-heroicons-chat-bubble-left-right"
+      - name: "Réseau Professionnel"
+        description: "Accédez à un réseau diversifié de professionnels pour explorer des opportunités de collaboration, de mentorat et d'évolution de carrière."
+        icon: "i-heroicons-share"
+      - name: "Ambiance Conviviale"
+        description: "Nous croyons en l'importance de créer des liens dans un cadre détendu et amical, propice au partage et à l'innovation."
+        icon: "i-heroicons-face-smile"
+  events:
+    headline: "Les prochains rendez-vous"
+    title: "Ne manquez pas nos rendez-vous à venir!"
+    description: "Participez à nos événements, nos ateliers interactifs, et nos soirées de networking. Chaque événement est une chance de renforcer votre réseau et d'approfondir vos connaissances. Inscrivez-vous dès maintenant pour garantir votre place!"
+    message:
+      empty:
+        icon: "i-heroicons-calendar-days"
+        title: "Cher agenda, à quand le prochain rendez-vous?"
+        description: "Pour l'instant, nos calendriers prennent un petit bain de détente ! Pas d'événements planifiés à l'horizon, mais ne vous inquiétez pas, nous sommes en train de concocter des rencontres qui seront à la hauteur de vos attentes. Restez connectés, de nouvelles dates seront annoncées bientôt – parce que même nos agendas ont droit à un peu de suspense !"
+  register:
+    headline: "Rejoignez-nous !"
+    title: "Devenez membre"
+    description: "Que vous soyez un CTO expérimenté, en début de carrière, ou un professionnel tech aspirant à un rôle de leadership, &quot;CTO de Lyon&quot; est votre communauté. Suivez notre page pour rester informé de nos événements et activités."
+    features:
+      - name: "Qui peut rejoindre ?"
+        description: "L'adhésion est ouverte et gratuite pour les professionnels occupant des postes de direction technique, tels que les CTOs, les Tech Leads, et ceux dans des rôles similaires, qui cherchent à échanger sur des sujets techniques complexes et à rester informés des dernières tendances et innovations dans le domaine de la technologie."
+      - name: "Pourquoi s'inscrire à notre mailing list ?"
+        description: "En vous inscrivant, vous serez les premiers informés de nos actualités, événements à venir, workshops et rencontres exclusives. C'est une opportunité unique de vous connecter avec des pairs de votre domaine, d'élargir votre réseau professionnel et de partager vos connaissances et expériences."
+      - name: "Comment s'inscrire ?"
+        description: "Si vous êtes un CTO, un Tech Lead, ou si vous occupez une position similaire dans le domaine de la technologie et que vous souhaitez rejoindre une communauté de pairs dédiée, nous vous invitons à vous inscrire à notre mailing list. Merci de préciser votre poste actuel et votre domaine d'expertise lors de l'inscription afin de faciliter la vérification de votre éligibilité."
+    links:
+      - label: "S'inscrire à notre newsletter"
+        size: "lg"
+        "trailing-icon": "i-heroicons-envelope-open"
+        to: "https://c26d9167.sibforms.com/serve/MUIFAPgUD9FAfkc4JDaYrcZbkyKrW6GbFnompG_YTmE1vJKCdVp6NeNXylwurQqNu8_zTdsh1HrS4i4GMHZmS1LWb6cbR9lGtlWLiOomcgLxgka1yfmusQeyOgvDLozQFQ86ZXJb1Ay1Bciuki3I06rPQ8STJvLvA8dO5tppCHDl7OWiFpkRxhBxXUCcrbRqjk907gOpx3af23-C"
+  rules:
+    title: "Nos règles"
+    features:
+      - name: "Respect et courtoisie"
+        description: "Faites preuve de respect et de courtoisie envers tous. Les discussions doivent rester cordiales, même en cas de désaccord."
+      - name: "Pas de publicité"
+        description: "La promotion de produits ou services commerciaux n'est pas autorisée. Les contrevenants seront exclus."
+      - name: "Contenu pertinent"
+        description: "Assurez-vous que tout le contenu partagé est pertinent pour le sujet du management collaboratif."
+      - name: "Pas de spam"
+        description: "Évitez les publications en série ou répétitives. Les membres fautifs seront supprimés."
+      - name: "Confidentialité et vie privée"
+        description: "Respectez la vie privée des autres membres. Ne partagez pas d'informations personnelles sans le consentement explicite des intéressés."
+      - name: "Modération"
+        description: "Les modérateurs se réservent le droit de retirer tout contenu ou membre qui enfreint ces règles."
+  contact:
+    headline: "Vous avez des questions ?"
+    title: "Contactez-nous"
+    description:
+      - paragraph: "Pour toute question ou suggestion, n'hésitez pas à contacter notre équipe d'animation."
+      - paragraph: "Ensemble, enrichissons-nous les uns des autres et façonnons l'avenir de la technologie dans notre région ! 💪"
