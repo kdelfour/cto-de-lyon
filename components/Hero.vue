@@ -24,6 +24,6 @@ defineProps<{ content?: JSON }>()
 
 <style scoped>
 .hero-bg {
-  background-image: url('~/assets/images/bg.png');
+  background-image: url('~/assets/images/bg.webp');
 }
 </style>

@@ -10,7 +10,7 @@ defineProps<{ content?: JSON }>()
       </div>
     </template>
     <img
-      src="~assets/images/illustration-about.png"
+      src="~assets/images/illustration-about.webp"
       class="w-full rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700"
     >
   </ULandingSection>

@@ -70,6 +70,6 @@ const { data, pending } = useFetch('/api/fetchEvents')
 
 <style scoped>
 .agenda-bg {
-  background-image: url('~/assets/images/illustration-agenda.png');
+  background-image: url('~/assets/images/illustration-agenda.webp');
 }
 </style>
