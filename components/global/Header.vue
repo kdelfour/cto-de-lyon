@@ -4,7 +4,7 @@ const links = [{
   icon: 'i-heroicons-book-open',
   to: '#aboutUs'
 }, {
-  label: 'Ce Que Nous Offrons',
+  label: 'Ce que nous offrons',
   icon: 'i-simple-icons-stackblitz',
   to: '#services'
 }, {
